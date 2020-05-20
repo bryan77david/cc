@@ -1,0 +1,58 @@
+.label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2;
+    width: 25%;
+    color: white;
+    
+}
+
+.form-text {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.contact-background {
+    
+    width: 100%;
+}
+
+.textbox-name {
+    width: 25%;
+}
+
+.textbox-email {
+    width: 25%;
+}
+
+.textbox-submit {
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.aboutme-background {
+    width: 85%;
+    margin: 0 7% 0;
+   
+}
+
+
+.aboutme-middle {
+    position: absolute;
+    width: 30%;
+    margin: 0px 35% 0;
+    text-align: center;
+    background: rgba(48, 46, 46, 0.8);
+    color: black;
+    height: 100%;
+}
+
+.aboutme-description {
+
+    font-size: 1.5rem;
+    color: white;
+    font-family: Ubuntu;
+    margin-top: 5%;
+    padding: 15px;
+    line-height: 2;
+}
