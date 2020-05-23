@@ -40,19 +40,24 @@
 .aboutme-middle {
     position: absolute;
     width: 30%;
-    margin: 0px 35% 0;
+    margin: 0 35% 0;
     text-align: center;
-    background: rgba(48, 46, 46, 0.8);
+    background: rgba(48, 46, 46, 0.5);
     color: black;
     height: 100%;
+    padding-top: 2%;
 }
 
 .aboutme-description {
 
-    font-size: 170%;
+    font-size: auto;
     color: white;
     font-family: Ubuntu;
     margin-top: 5%;
     padding: 2%;
     line-height: 2;
+}
+
+.single-container {
+    height: 100%;
 }
