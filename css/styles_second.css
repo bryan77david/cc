@@ -1,10 +1,94 @@
+
+/* About me page*/
+
+.single-container {
+ 
+    background: url("backgrounds/road.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.aboutme-background {
+    width: 50%;
+   
+   
+}
+
+
+.aboutme-middle {
+    
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    background: rgba(48, 46, 46, 0.5);
+    padding-top: 2%;
+    margin-top: 5%;
+ 
+
+    
+   
+    
+
+}
+
+.aboutme-description {
+
+    font-size: large;
+    color: white;
+    font-family: Ubuntu;
+    
+    padding: 2%;
+    line-height: 2;
+    
+}
+
+
+
+
+/* Contact me page*/
+
+.Contactme-background {
+    background: url("backgrounds/Contact-me.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.contact-area {
+    text-align: center;
+   
+    background-color: rgba(14, 19, 19, 0.5);
+    width: 70%;
+    margin-left: 15%;
+   
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+
+}
+
 .label {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: medium;
     line-height: 2;
-    width: 25%;
+    width: 40%;
     color: white;
     
+}
+
+.textbox {
+
+    border:2px solid black;
+    width: 70%;
+    height: 10%;
+  
 }
 
 .form-text {
@@ -12,13 +96,10 @@
     margin-left: 15%;
 }
 
-.contact-background {
-    
-    width: 100%;
-}
 
 .textbox-name {
     width: 25%;
+    
 }
 
 .textbox-email {
@@ -30,42 +111,62 @@
     width: 30%;
 }
 
-.aboutme-background {
-    width: 60%;
-    margin: 0 7% 0;
-   
+#navbar-toggler {
+    background-color: white;
 }
 
+/*Programmer page*/
 
-.aboutme-middle {
-    
-    width: 50%;
-    margin: 0 25%;
-    text-align: center;
-    background: rgba(48, 46, 46, 0.5);
-    color: black;
-    height: 100%;
-    padding-top: 2%;
-    font-size: auto;
-
-}
-
-.aboutme-description {
-
-    font-size: large;
-    color: white;
-    font-family: Ubuntu;
-    margin-top: 5%;
-    padding: 2%;
-    line-height: 2;
-    
-}
-
-.single-container {
- 
-    background: url("road.jpg");
+.programmer-page {
+    background: url("backgrounds/left-img.jpg");
     background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
+ 
+}
+
+.programmer-inner-div {
+    height: 100%;
+    width:50%;
+    background-color: rgba(10, 10, 10, 0.7);
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 5% 5% 5%;
+    
+}
+
+.programmer-page-title {
+    font-size: xx-large;
+}
+
+.programmer-description {
+    font-size: x-large;
+    color: white;
+    line-height: 2;
+    font-family: Ubuntu;
+}
+
+.Engineer-background {
+
+    background: url("backgrounds/MENGINEER.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.engineer-body {
+
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    padding: 15%;
+    background-color: rgb(12, 12, 12, .5);
+    text-align: center;
+}
+
+.engineer-paragraphs {
+    color: white;
+    font-size: x-large;
+    font-family: Ubuntu;
 }
