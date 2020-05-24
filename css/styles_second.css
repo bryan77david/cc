@@ -38,26 +38,34 @@
 
 
 .aboutme-middle {
-    position: absolute;
-    width: 30%;
-    margin: 0 35% 0;
+    
+    width: 40%;
+    margin: 0 30%;
     text-align: center;
     background: rgba(48, 46, 46, 0.5);
     color: black;
     height: 100%;
     padding-top: 2%;
+    font-size: auto;
+
 }
 
 .aboutme-description {
 
-    font-size: auto;
+    font-size: 150%;
     color: white;
     font-family: Ubuntu;
     margin-top: 5%;
     padding: 2%;
     line-height: 2;
+    
 }
 
 .single-container {
-    height: 100%;
+ 
+    background: url("road.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
 }
