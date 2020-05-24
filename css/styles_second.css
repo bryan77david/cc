@@ -31,7 +31,7 @@
 }
 
 .aboutme-background {
-    width: 85%;
+    width: 60%;
     margin: 0 7% 0;
    
 }
@@ -39,8 +39,8 @@
 
 .aboutme-middle {
     
-    width: 40%;
-    margin: 0 30%;
+    width: 50%;
+    margin: 0 25%;
     text-align: center;
     background: rgba(48, 46, 46, 0.5);
     color: black;
