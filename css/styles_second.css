@@ -178,4 +178,9 @@
         font-size: small;
         
     }
+
+    .aboutme-middle {
+        width: 80%;
+        margin-left: 10%;
+    }
 }
